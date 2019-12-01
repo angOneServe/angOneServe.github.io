@@ -1,0 +1,123 @@
+#cnblogs_post_body h2 {
+        background: none repeat scroll 0% 0% rgb(43, 102, 149);
+        border-radius: 6px 6px 6px 6px;
+        box-shadow: 0px 0px 0px 1px rgb(95, 90, 75), 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+        color: rgb(255, 255, 255);
+        font-family: "微软雅黑","宋体","黑体",Arial;
+        font-size: 18px;
+        font-weight: bold;
+        height: 25px;
+        line-height: 25px;
+        margin: 15px 0px !important;
+        padding: 5px 0px 5px 20px;
+        text-shadow: 2px 2px 3px rgb(34, 34, 34);
+        width: 98%;
+        }
+
+#cnblogs_post_body h3 {
+    background: #4A708B;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 23px;
+    margin: 12px 0 !important;
+    padding: 5px 0 5px 10px;
+    text-shadow: 2px 2px 3px #222222;
+}
+
+
+
+#cnblogs_post_body h4 {
+        background: green;
+        border-radius: 6px 6px 6px 6px;
+        width: 900px;
+       /* box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(0,255,255, 0.5);*/
+        color:  #FFFFFF;
+        font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+        font-size: 14px;
+        font-weight: bold;
+        height: 22px;
+        line-height: 20px;
+        margin: 10px 0 !important;
+        padding: 5px 0 5px 10px;
+    }
+
+
+
+#cnblogs_post_body h5 {
+    background: skyblue;
+    border-radius: 6px 6px 6px 6px;
+    width: 700px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 23px;
+    margin: 12px 0 !important;
+    padding: 5px 0 5px 10px;
+    text-shadow: 2px 2px 3px #222222;
+}
+
+
+
+.qq{
+    color:red;
+    font-size:15px;
+    margin:0px;
+   font-weight: 500;
+}
+.gonggao{
+    margin:0px;
+ font-size:16px;
+    color:blue;
+}
+
+
+/* 定制公告栏音乐插件的样式 */
+.aplayer {
+    font-family: Arial,Helvetica,sans-serif;  /*音乐插件字体*/
+    margin: 0px;  /*音乐插件与公告栏左边的边距，0px就是直接抵到公告栏左边的边上*/
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 2px;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: normal;
+}
+
+/* 定制博客背景图片，url里面是你的图片位置信息 */
+body { 
+     background-color: #efefef;
+     background-image:url(https://images.cnblogs.com/cnblogs_com/sui776265233/1506647/o_5d158251aaa73.jpg); 
+     background-repeat: no-repeat; 
+     background-attachment: fixed; 
+     background-position: center 0; 
+     background-size: cover; 
+    padding-top:0px;
+  }
+
+
+/*设置推荐按钮进行浮动*/
+#div_digg{
+  position:fixed;
+  bottom:5px;
+  width:50px;
+  right:390px;
+  border:3px solid #2894FF;
+  padding:10px;
+  background-color:#FFC1E0;
+  border-radius:5px 5px 5px 5px !important;
+  box-shadow:0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+/* ignore反对 */
+.buryit {
+    display: none;
+}
